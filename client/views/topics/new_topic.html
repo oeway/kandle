@@ -9,10 +9,10 @@
     <div class="modal-body">
       <form role="form" id="js-create-topic-form">
         <div class="form-group">
-          <input type="text" class="form-control" id="js-create-title" placeholder="{{_ 'new_topic_prompt'}}">
+          <input type="text" class="form-control" id="js-create-title" placeholder="{{_ 'new_topic_prompt'}}" value="{{new_topic_title}}">
         </div>
         <div class="form-group">
-          <textarea class="form-control" id="js-create-description" placeholder="{{_ 'new_topic_context'}}"></textarea>
+          <textarea class="form-control" id="js-create-description" placeholder="{{_ 'new_topic_context'}}" value="{{new_topic_description}}"></textarea>
         </div>
         <div class="action-group clearfix">
           <button type="submit" class="btn btn-primary">{{_ "submit"}}</button>
