@@ -15,7 +15,7 @@ var createNewTopic = function($title,$description){
           toastr.warning(i18n.t('topic_too_short'));
         else if (error.error === 'duplicate-content')
         {
-            toastr.warning(i18n.t('topic_title_exists'));
+            //toastr.warning(i18n.t('topic_title_exists'));
             $('#one-modal').modal('hide').on('hidden.bs.modal', function () {
                 //Router.go('topic', { '_id': result });  //TODO: urgly hack
             });

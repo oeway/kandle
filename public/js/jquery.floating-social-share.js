@@ -225,7 +225,7 @@
     
     $( document ).ready(function() {
         $("body").floatingSocialShare({
-            buttons: ["facebook", "twitter", "google-plus", "linkedin"],
+            buttons: ["linkedin", "facebook", "twitter", "google-plus"],
             text: "share with: ",
             url: window.location.href
         });
