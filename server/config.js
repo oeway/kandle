@@ -37,8 +37,8 @@ var emailOptions = function (emailType) {
 };
 
 Accounts.emailTemplates = {
-  from: 'Binary <hi@binary10.co>',
-  siteName: 'Binary',
+  from: 'Kandle <wei.ouyang@cri-paris.org>',
+  siteName: 'Kandle',
   resetPassword: new emailOptions('resetPassword'),
   verifyEmail: new emailOptions('verifyEmail')
 };

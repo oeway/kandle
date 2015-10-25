@@ -31,7 +31,6 @@ random
 meteorhacks:npm
 
 
-npm-container
 kestanous:herald
 multiply:iron-router-progress
 erasaur:notification-badge
@@ -52,3 +51,6 @@ fortawesome:fontawesome
 iron:router
 one-modal
 sacha:juice
+
+
+npm-container

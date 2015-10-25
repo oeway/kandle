@@ -39,13 +39,13 @@
   // Nav
   "toggle_navigation": "Toggle Navigation",
   "your_profile": "Your Profile",
-  "add_new_topic": "Add New Topic",
+  "add_new_topic": "Add New Kandle",
 
   // Search
-  "search_prompt": "Find topics and users...",
-  "topics": "Topics",
+  "search_prompt": "Find kandles and users...",
+  "topics": "Kandles",
   "users": "Users",
-  "search_for_topics": "Search for topics.",
+  "search_for_topics": "Search for kandles.",
   "search_for_users": "Search for users.",
   "no_search_results": "Sorry, we couldn't find anything. Try another search?",
 
@@ -67,9 +67,9 @@
   "invite_success": "Your invite has been sent!",
 
   // Landing
-  "landing_lead": "explore the fascinating world of binary questions",
+  "landing_lead": "explore the fascinating world of Kandle questions",
   "feature_lead": "What's this, you ask?",
-  "feature_1": "a binary question has only 2 possible answers",
+  "feature_1": "a Kandle question has only 2 possible answers",
   "feature_2": "you can vote on a side",
   "feature_3": "or comment on a side",
   "feature_4": "even comment on somebody's comment (wow)",
@@ -80,7 +80,7 @@
   "notifications": "Notifications",
   "no_notifications": "No Notifications",
 
-  "in_topic_owning": "in your topic: __topic__",
+  "in_topic_owning": "in your kandle: __topic__",
   "in_topic": "in: __topic__",
 
   "notification_new_comment": "__user__ posted a new comment __topic__",
@@ -91,7 +91,7 @@
   "notification_new_follower_plural": "__user__ and __count__ others are now following you.",
   "notification_new_reply": "__user__ replied to your comment __topic__",
   "notification_new_reply_plural": "__user__ and __count__ others replied to your comment __topic__",
-  "notification_new_topic": "__user__ created a new topic: __topic__",
+  "notification_new_topic": "__user__ created a new kandle: __topic__",
 
   "discuss": "Discuss",
   "view_profile": "View profile",
@@ -99,7 +99,7 @@
 
   // Profile
   "comments": "Comments",
-  "topics": "Topics",
+  "topics": "Kandles",
   "followers": "Followers",
   "following": "Following",
   "unfollow": "Unfollow",
@@ -126,49 +126,49 @@
   "new_followers": "New Followers",
   "new_comments": "New Comments",
   "new_replies": "New Replies",
-  "new_topics": "New Topics",
+  "new_topics": "New Kandles",
   
   "settings_new_follower": "Email me when I gain a new follower",
   "settings_newComment_follower": "Email me when someone I follow posts a new comment",
-  "settings_newTopic": "Email me when someone I follow creates a new topic",
+  "settings_newTopic": "Email me when someone I follow creates a new kandle",
   "settings_newReply": "Email me when someone replies to my comment",
-  "settings_newComment_topicOwner": "Email me when someone comments in my topic",
-  "settings_newComment_topicFollower": "Email me when someone comments in a topic I am following",
+  "settings_newComment_topicOwner": "Email me when someone comments in my kandle",
+  "settings_newComment_topicFollower": "Email me when someone comments in a kandle I am following",
 
   // Invite/Settings
   "use_alphanumeric_name": "Please try to stick to alphanumeric characters (minimum 3, maximum 25) to keep names identifiable.",
   "password_too_short": "Your password should have 6 characters at minimum. Don't be so easy on the hackers!",
 
   // Topics
-  "create_topic": "Create Topic",
-  "new_topic_prompt": "Ask a question!",
+  "create_topic": "Create a Kandle",
+  "new_topic_prompt": "Create a new Kandle!",
   "new_topic_context": "Some context for the question would be nice.",
-  "topic_too_short": "Sorry, the topic title has to have at least 8 characters.",
-  "topic_title_exists": "Oops! It looks like a topic with the same title already exists. Comment on there instead?",
+  "topic_too_short": "Sorry, the kandle title has to have at least 8 characters.",
+  "topic_title_exists": "Oops! It looks like a kandle with the same title already exists. Comment on there instead?",
   "num_comments": "__count__ Comments",
 
   // Comments/Topics
   "please_wait": "Please wait __num__ seconds before posting again.",
 
   // Emails
-  "email_invite_subject": "You are invited to join Binary!",
+  "email_invite_subject": "You are invited to join Kandle!",
   "email_invite_message": "Greetings! You have been invited by __user__ (__email__) to join.",
   "email_invite_action": "Take me there!",
 
-  "email_welcome_subject": "Welcome to Binary!",
-  "email_welcome_message_0": "Thanks for joining us at Binary; we're so glad to have you here. If you ever have any questions or feedback, feel free to reply to this email. We read and reply to every email that makes it through, so please, reach out any time!",
+  "email_welcome_subject": "Welcome to Kandle!",
+  "email_welcome_message_0": "Thanks for joining us at Kandle; we're so glad to have you here. If you ever have any questions or feedback, feel free to reply to this email. We read and reply to every email that makes it through, so please, reach out any time!",
   "email_welcome_message_1": "One other thing: there's another icon at the bottom right of the screen (once you've logged in) that opens up a form that you can use to invite your friends. We've given you three invites, so go ahead and ask your three best friends to join us :)",
   "email_welcome_message_2": "Welcome in, and thanks for joining us!",
 
-  "email_resetPassword_subject": "Recovering your password on Binary",
+  "email_resetPassword_subject": "Recovering your password on Kandle",
   "email_resetPassword_message": "We heard you lost your password, but no worries. Simply click the link below to reset it:",
   "email_resetPassword_action": "Recover my password",
 
-  "email_verifyEmail_subject": "Verify your email on Binary",
+  "email_verifyEmail_subject": "Verify your email on Kandle",
   "email_verifyEmail_message": "Please verify your email by clicking the button below:",
   "email_verifyEmail_action": "Verify this email",
 
-  "email_signature": "Best,<br/>the Binary Team",
+  "email_signature": "Best,<br/>the Kandle Team",
   "email_opt_out": "If you don't want to receive further emails, you can update your settings <a href='__url__'>here</a>.",
 
   "greeting_extended": "$t('greeting', %s) Just wanted to let you know that",
@@ -178,12 +178,12 @@
   "moderation": "Moderation",
   "comment_deleted": "Sorry, this comment has been deleted.",
   "delete_comment": "delete this comment",
-  "delete_topic": "delete this topic",
+  "delete_topic": "delete this Kandle",
 
   // Common
   "are_you_sure": "Are you sure you want to __action__?",
   "go_home": "Take me home!",
-  "copyright": "©2014 Binary, All Rights Reserved.",
+  "copyright": "©2014 Kandle, All Rights Reserved.",
   "greeting": "Hey there, %s!",
   "email": "Email",
   "password": "Password",
@@ -197,5 +197,6 @@
   "login_error": "Oops, we don't recognize that username/password combination. Try again?",
   "error": "Sorry, something went wrong. Please try again.",
   "please_login": "That's something you have to be logged in to do.",
-  "no_permission": "Sorry, we can't let you do that."
+  "no_permission": "Sorry, we can't let you do that.",
+  "show_install":"Installation"
 }

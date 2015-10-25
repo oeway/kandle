@@ -12,6 +12,10 @@ Template.nav.events({
       OneModal('signupModal', { modalClass: 'modal-sm' });
     }
   },
+  'click #js-show-install': function (event, template) {
+      OneModal('showInstall');
+
+  },
 	//prevent page from scrolling when mouse is in notifications box
 	'DOMMouseScroll .notifications, mousewheel .notifications': function (event, template) {
 		var target = event.currentTarget;

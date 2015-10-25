@@ -1,0 +1,16 @@
+<template name="showInstall">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="icon-group close" data-dismiss="modal" aria-hidden="true">
+        <i class="icon-action fa fa-remove"></i>
+      </div>
+      <h4 class="modal-title muted uppercase" id="modal-title">{{_ "show_install"}}</h4>
+    </div>
+    <div class="modal-body">
+        <h3>Drag the "Save To Kandle" button to your Bookmarks Bar</h3>
+      <p>
+          <a title="Save to Kandle" id="save-to-kandle" onclick="alert('Drag and drop this link to your bookmarks'); return false;" href="javascript:var url=location.href;window.open('http://localhost:3000/api/new_kandle?text='+url,'kandle','status=no,directories=no,location=no,resizable=yes,menubar=no,width=500,height=400,toolbar=no');">Save to Kandle</a>
+      </p>
+    </div>
+  </div>
+</template>
